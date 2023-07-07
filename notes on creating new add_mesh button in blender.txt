@@ -1,0 +1,11 @@
+
+### Make the object, and have it selected
+### with a script open in blender's script editor
+### the two write commands write to location of cursor
+
+objectVertices = [vert.co for vert in C.object.data.vertices]
+D.texts['open_script.py'].write(objectVertices.__repr__())
+objectFaces = [[vert for vert in face.vertices] for face in C.object.data.polygons]
+D.texts['open_script.py'].write(objectFaces.__repr__())
+
+
