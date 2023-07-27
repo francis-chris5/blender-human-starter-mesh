@@ -1,10 +1,10 @@
 bl_info = {
-    "name": "Add Woman",
+    "name": "Add Hair Woman",
     "author": "Christopher S. Francis",
     "version": (1, 3),
     "blender": (3, 5, 0),
     "location": "run script",
-    "description": "Adds a new Woman Mesh",
+    "description": "Adds a new hair mesh for the Woman Mesh",
     "warning": "",
     "wiki_url": "https://github.com/francis-chris5/blender-human-starter-mesh/wiki",
     "category": "Add Mesh",
@@ -24,7 +24,7 @@ faces = [[26, 9, 3, 22], [48, 17, 6, 43], [39, 32, 2, 21], [51, 33, 5, 41], [37,
     
 mesh = bpy.data.meshes.new(name="Woman")
 mesh.from_pydata(verts, edges, faces)
-woman = bpy.data.objects.new('woman', mesh)
+hair = bpy.data.objects.new('woman', mesh)
 
 
     

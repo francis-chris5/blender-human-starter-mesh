@@ -1,10 +1,10 @@
 bl_info = {
-    "name": "Add Hair",
+    "name": "Add Hair Man",
     "author": "Christopher S. Francis",
     "version": (1, 3),
     "blender": (3, 5, 0),
     "location": "run script",
-    "description": "Adds a new Hair Mesh",
+    "description": "Adds a new Hair Mesh for the Man mesh",
     "warning": "",
     "wiki_url": "https://github.com/francis-chris5/blender-human-starter-mesh/wiki",
     "category": "Add Mesh",
